@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #2B324A;
+    color: #ffffff; 
+    padding: 100px; /* Ajusta el espaciado interno según tus preferencias */
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header div {
+    margin: 0; 
+    float:right;
+    background-color: #2B324A;
+    color: #DDDDDD;
+    text-align: right;
+    
+}
+
+header img {
+    float: left;
+    margin-right: 15px;
+    width: 80px;
+    height: 100px;
+    margin-top: -35px; /* Ajusta el margen superior según tus preferencias */
+    margin-left: -70px;  
+} 
+
+.busqueda {
+  padding: 50px; /* Otra opción para darle espacio al contenido dentro del div */
+  text-align: center; /* Alinea el contenido en el centro del div */
+  color: white;
+}
+input {
+    padding: 30px; /* Ajusta el espacio interno según tu necesidad */
+    border-radius: 15px;
+    margin-left: -500px;
+    width: 600px;
+
+}
+
+button {
+    padding: 10px 20px; /* Ajusta el espacio interno según tu necesidad */
+    background-color: #d9d9d952; /* Cambia el color del botón según tu necesidad */
+    color: black; /* Cambia el color del texto según tu necesidad */
+    cursor: pointer;
+    border-radius: 15px;
+    border-color: black;
+    margin-left: 20px;
+  }
+
+  .Product1 {
+    display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+}
+
+.boton-publicar1 {
+    background-color: #575d6f;
+    color: #fff; /* Agregar un color de texto que contraste con el color de fondo */
+    padding: 10px 15px; /* Ajustar el relleno según tus preferencias */
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: -170px;
+    margin-right: 500px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+
+  }
+  .main-container {
+    display: flex;
+  }
+  
+  .sidebar1 {
+    background-color: #2B324A;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    margin-top: -220px; /* Ajusta el valor negativo según tus necesidades */
+  }
+  
+  
+  .sidebar1 > div {
+    margin-bottom: 15px;
+  }
+
+  .sidebar1 img {
+    width: 50px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: 50px;
+    margin-left: 10px; /* Espaciado entre la imagen y el texto */
+    margin-top: 0px;
+}
+
+  .sidebar1 p {
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  .boton {
+    margin-top: 10px; /* Espaciado entre los botones y los elementos anteriores */
+  }
+  
+  .boton button {
+    padding: 8px 16px; /* Ajusta el padding según tus necesidades */
+    background-color: #C1C7D9; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+
+.Cuadro {
+    background-color: #D9D9D9;
+    height: 450px;
+    width: 750px;
+    margin-top: -800px;
+    margin-left: 350px;
+}
+
+.Cuadro h1 {
+    margin-left: 250px;
+    
+}
+
+.Cuadro img {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top:15px;
+}
+
+.Cuadro h3 {
+    font-size: 25px;
+    margin-top: -150px;
+    margin-left: 300px;
+}
+
+.Cuadro button {
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 200px;
+    background-color: #C0D5EE;
+}
+
+.imagen img {
+  margin-left: 1000px;
+  width: 70px;
+  height: 70px;
+  margin-top: -1000px;
+}
+
+.Cuadro1 {
+  background-color: #D9D9D9;
+  height: 450px;
+  width: 750px;
+  margin-top: -550px;
+  margin-left: 1200px;
+}
+
+.Cuadro1 h1 {
+  margin-left: 250px;
+  
+}
+
+.Cuadro1 img {
+  width: 200px;
+  height: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.Cuadro1 h3 {
+  font-size: 25px;
+  margin-top: -150px;
+  margin-left: 300px;
+}
+
+.Cuadro1 button {
+  font-size: 30px;
+  margin-left: 400px;
+  margin-top: 50px;
+  width: 200px;
+  background-color: #C0D5EE;
+}
+
+.imagen1 img {
+margin-left: 1850px;
+width: 70px;
+height: 70px;
+margin-top: -1000px;
+}
+
+  

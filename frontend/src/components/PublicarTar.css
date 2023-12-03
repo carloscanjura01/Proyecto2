@@ -1,0 +1,51 @@
+/* Estilos para el contenedor del formulario */
+.formulario-publicacion {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .formulario-publicacion h1{
+    margin-left: 200px;
+  }
+  
+  /* Estilos para cada etiqueta del formulario */
+  .formulario-publicacion label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    margin-left: 100px;
+  }
+  
+  /* Estilos para los campos de entrada del formulario */
+  .formulario-publicacion input,
+  .formulario-publicacion textarea {
+    width: 100%;
+    padding: 8px;
+    margin-left: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el botón de enviar del formulario */
+  .formulario-publicacion button {
+    background-color: #6F9CF3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+  
+  .formulario-publicacion button:hover {
+    background-color: #6F9CF3;
+  }
+  

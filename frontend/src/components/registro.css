@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #2B324A;
+    color: #ffffff; /* Color del texto en el encabezado */
+    padding: 60px; /* Ajusta el espaciado interno según tus preferencias */
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header div {
+    margin: 0;
+    float:right;
+}
+
+header img {
+        float: left;
+        margin-right: 15px;
+        width: 80px;
+        height: 100px;
+        margin-top: -40px; /* Ajusta el margen superior según tus preferencias */
+        margin-left: -40px;
+        
+    }
+
+.enlace-iniciosesion {
+        color: white; /* Color del texto */
+        text-decoration: underline; /* Subrayado */
+      }
+<<<<<<< HEAD
+    
+.formulario {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1 rem;
+    } 
+    
+.formulario button {
+    color: white;
+}
+=======
+    #formulario {
+        float: left;
+        width: 30%; /* Ajusta el ancho del formulario según tus preferencias */
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    form {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    #formulario label,
+    #formulario input,
+    #formulario button {
+        display: block;
+        margin-bottom: 10px;
+        
+    }
+    .contrasena-container {
+        position: relative;
+      }
+      
+      .mostrar-ocultar {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: #888; /* Color suave */
+      }
+>>>>>>> 452eb2132babf5f9f4c5b4ba7aad63cf4afa7973
+
+    div {
+        text-align: left; /* Centra la imagen horizontalmente dentro del div */
+    }
+    
+    div img {
+<<<<<<< HEAD
+        margin-left: 1300px; /* Ajusta el margen derecho según tus preferencias */
+        width: 650px; /* Ajusta el ancho de la imagen según tus preferencias */
+        height: 650px; /* Ajusta la altura de la imagen según tus preferencias */
+        max-width: 2400px;
+        margin-top: -700px;
+=======
+        margin-right: 20px; /* Ajusta el margen derecho según tus preferencias */
+        width: 650px; /* Ajusta el ancho de la imagen según tus preferencias */
+        height: 650px; /* Ajusta la altura de la imagen según tus preferencias */
+        max-width: 2400px;
+>>>>>>> 452eb2132babf5f9f4c5b4ba7aad63cf4afa7973
+    }
+    

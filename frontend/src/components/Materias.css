@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #2B324A;
+    color: #ffffff; 
+    padding: 100px; /* Ajusta el espaciado interno según tus preferencias */
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header div {
+    margin: 0; 
+    float:right;
+    background-color: #2B324A;
+    color: #DDDDDD;
+    text-align: right;
+    
+}
+
+header img {
+    float: left;
+    margin-right: 15px;
+    width: 80px;
+    height: 100px;
+    margin-top: -35px; /* Ajusta el margen superior según tus preferencias */
+    margin-left: -70px;  
+} 
+
+.cerrarsesion {
+    background-color: #C1C7D9;
+    height: 100px;
+    width: 90px;
+    margin-top: -50px;
+}
+
+.cerrarsesion img {
+    height: 100px;
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.busqueda {
+  padding: 50px; /* Otra opción para darle espacio al contenido dentro del div */
+  text-align: center; /* Alinea el contenido en el centro del div */
+  color: white;
+}
+input {
+    padding: 30px; /* Ajusta el espacio interno según tu necesidad */
+    border-radius: 15px;
+    margin-left: -500px;
+    width: 600px;
+
+}
+
+button {
+    padding: 10px 20px; /* Ajusta el espacio interno según tu necesidad */
+    background-color: #d9d9d952; /* Cambia el color del botón según tu necesidad */
+    color: black; /* Cambia el color del texto según tu necesidad */
+    cursor: pointer;
+    border-radius: 15px;
+    border-color: black;
+    margin-left: 20px;
+  }
+
+  .Product {
+    display: flex;
+  justify-content: flex-end;
+}
+
+.boton-publicar {
+    background-color: #575d6f;
+    color: #fff; /* Agregar un color de texto que contraste con el color de fondo */
+    padding: 10px 15px; /* Ajustar el relleno según tus preferencias */
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: -130px;
+    margin-right: 500px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+
+  }
+  .main-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #2B324A;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    margin-top: 0px; /* Ajusta el valor negativo según tus necesidades */
+  }
+  
+  
+  .sidebar > div {
+    margin-bottom: 15px;
+  }
+
+  .sidebar img {
+    width: 50px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: 50px;
+    margin-left: 10px; /* Espaciado entre la imagen y el texto */
+    margin-top: 0px;
+}
+
+  .sidebar p {
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  .boton {
+    margin-top: 10px; /* Espaciado entre los botones y los elementos anteriores */
+  }
+  
+  .boton button {
+    padding: 8px 16px; /* Ajusta el padding según tus necesidades */
+    background-color: #C1C7D9; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+
+  .AVM {
+    background-color: #B9D5D7;
+    margin-left: 290px;
+    width: 300px;
+    height: 200px;
+    margin-top: -900px;
+  }
+
+  .AVM h2 {
+    font-size: 25px;
+    margin-left: 45px;
+    margin-top: 25px;
+  }
+
+  .AVM h4 {
+    font-size: 25px;
+    margin-left: 100px;
+  }
+
+
+  .PW {
+    background-color: #B9D5D7;
+    margin-left: 648px;
+    margin-top: -150px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .PW h2 {
+    font-size: 25px;
+    margin-left: 45px;
+  }
+
+  .PW h4 {
+    font-size: 25px;
+    margin-left: 100px;
+  }
+
+  .TEI {
+    background-color: #B9D5D7;
+    margin-left: 1000px;
+    margin-top: -150px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .TEI h2 {
+    font-size: 25px;
+    margin-left: 45px;
+  }
+
+  .TEI h4 {
+    font-size: 25px;
+    margin-left: 100px;
+  }
+
+  .TI {
+    background-color: #B9D5D7;
+    margin-left: 1350px;
+    margin-top: -145px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .TI h2 {
+    font-size: 25px;
+    margin-left: 45px;
+  }
+
+  .TI h4 {
+    font-size: 25px;
+    margin-left: 100px;
+  }
+
+  .QI {
+    background-color: #B9D5D7;
+    margin-left: 1700px;
+    margin-top: -120px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .QI h2 {
+    font-size: 25px;
+    margin-left: 45px;
+  }
+
+  .QI h4{
+    font-size: 25px;
+    margin-left: 100px;
+  }
+
+
+
+ 

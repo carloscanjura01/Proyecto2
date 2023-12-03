@@ -1,0 +1,47 @@
+COMO HACER USO DE INSOMIA?
+
+crear una carpeta llamada Post  y otra llamada User
+dentro de esta tiene que haber 
+-POST Create
+-GET Find One By Id
+-GET FInd All
+-DEL Delete By Id
+-POST Save
+-POST Log in
+-POST Register
+
+Antes de esto, recordar conectar la base de datos, se podran ir viendo reusltado en insomnia y almacenando en mongo db compass
+
+
+POST CREATE:
+Deben de poner este URL(dependiendo del puerto que usaron):
+http://localhost:3500/api/post/  (especificando /post ya que es la ruta  ala que queremos acceder)
+
+Aca deben de darle Form,luego Form URL  Encode
+
+agregar 
+description Desc01
+image (pegar la url de alguna imagen)
+title Title 01
+
+Find One By Id 
+poner esta URL (cambiarle la ultima parte con el id que te genera)
+http://localhost:3500/api/post/655f8848ee1a8
+
+Find All
+Poner esta URL
+http://localhost:3500/api/post/
+
+Delete by Id
+En este hay que apretar Bearer, luego baren token,en token poner responsive y poner el primero que salga, luego en filter , poner $.token y en Request Log in
+http://localhost:3500/api/post/
+655ffce348ece789cab00205
+
+Save
+http://localhost:3500/api/post/655fede9d0cb4740d3f30d0f
+
+Log in 
+http://localhost:3500/api/auth/login/
+
+Register
+http://localhost:3500/api/auth/register/
