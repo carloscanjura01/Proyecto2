@@ -1,4 +1,4 @@
-const User = require("../models/User.model");
+const User = require("../models/user.model");
 const { createToken, verifyToken } = require("../utils/jwt.tools");
 const controller = {};
 const ROLES = require("../data/rols.constants.json");

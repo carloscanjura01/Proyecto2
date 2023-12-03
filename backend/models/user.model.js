@@ -76,4 +76,4 @@ userSchema
     });
 
 
-module.exports = Mongoose.model("User", userSchema)
+module.exports = Mongoose.model("User", userSchema);
